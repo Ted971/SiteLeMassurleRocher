@@ -25,3 +25,17 @@ let slideIndex = 1;
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
   }
+
+  function copytext() {
+    // Get the text field
+    var copyText = document.getElementById("mailC");
+    if(copyText != null){
+    console.log("copyText");
+    }
+
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+
+    // Alert the copied text
+    alert("Copié dans le presse papier");
+  }
