@@ -1,0 +1,51 @@
+footer{
+  position:fixed;
+  bottom:0px;
+  height: 65px;
+  background-color: #cebca5;
+  color: black;
+  width:100%;
+  }
+
+
+
+div {
+  display: inline;
+}
+
+p {
+ display: inline;
+}
+
+.mel {
+  margin-left: 15%;
+}
+
+.tel {
+  margin-left: 30%;
+}
+
+.map {
+  margin-left: 35%;
+}
+
+.melp {
+  margin-left: 11%;
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  background: none;
+  border: none;
+}
+
+.telp {
+  margin-left: 45.5%;
+  position: absolute;
+}
+
+.mapp {
+  margin-left: 81%;
+  position: absolute;
+  text-decoration: none;
+  color: black;
+}

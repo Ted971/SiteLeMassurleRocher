@@ -1,0 +1,24 @@
+<div class="f"></div>
+<div class="navbar-wrapper"  [ngClass]="{'sticky': isSticky}">
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand"  routerLink="/">Accueil</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse show" id="navbarColor01" >
+      <ul class="navbar-nav me-auto">
+        <li>
+          <a routerLink="/Presentation/Gite" class="btn btn-primary">Gîte</a>
+        </li>
+        <li>
+        <a routerLink="/Presentation/Tarifs" class="btn btn-primary">Tarifs et Réservations</a>
+        </li>
+        <li>
+        <a routerLink="/Presentation/Decouvertes" class="btn btn-primary">Découvertes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
