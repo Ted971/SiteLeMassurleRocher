@@ -14,7 +14,7 @@ div {
 }
 
 p {
- display: inline;
+ display: flex;
 }
 
 .mel {
@@ -48,4 +48,22 @@ p {
   position: absolute;
   text-decoration: none;
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .melp {
+    margin-left: 0%;
+  }
+  .telp{
+    margin-left: 55%;
+  }
+  .mel{
+    margin-left: 25%;
+  }
+  .tel{
+    margin-left: 35%;
+  }
+  .map{
+    margin-left: 25%;
+  }
 }
