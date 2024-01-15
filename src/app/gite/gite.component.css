@@ -33,7 +33,6 @@
   position: absolute;
   top: 65%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -44,6 +43,13 @@
   text-decoration: none;
   background-color: rgba(0,0,0,0.8);
 }
+
+@media screen and (max-width: 768px) {
+  .prev, .next {
+    margin-top: 170%;
+  }
+}
+
 
 /* Position the "next button" to the right */
 .next {

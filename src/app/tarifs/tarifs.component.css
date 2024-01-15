@@ -119,6 +119,14 @@ p {
   margin-left: 25%;
 }
 
+@media screen and (max-width: 768px) {
+  .gmap {
+    margin-left: 2.5%;
+    width: 95%;
+  }
+}
+
+
 .gs {
 
   font-weight: 700;
