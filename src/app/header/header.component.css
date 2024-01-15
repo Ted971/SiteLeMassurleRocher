@@ -1,9 +1,7 @@
-.f {
-  background-image: url(src\assets\images\bandeau.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 380px;
+
+.bandeau{
+  position: relative;
+  width: 100%;
 }
 
 body {
@@ -15,6 +13,7 @@ body {
 }
 
 .navbar-wrapper {
+  position: relative;
   width: 100%;
   height: 50px; /* Hauteur de votre barre de navigation */
   position: relative;

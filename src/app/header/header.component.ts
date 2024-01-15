@@ -8,6 +8,7 @@ import { HeadercssService } from '../headercss.service';
 })
 export class HeaderComponent {
   isSticky: boolean = false;
+  bandeau:any = "assets/images/bandeau.jpg";
 
   constructor(private headercssService: HeadercssService) {}
 
