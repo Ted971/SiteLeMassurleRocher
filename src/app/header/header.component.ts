@@ -14,7 +14,12 @@ export class HeaderComponent {
 
   @HostListener('window:scroll', ['$event'])
   onScroll(event: Event) {
-    const scrollOffset = window.scrollY;
-    this.isSticky = scrollOffset >= 370; /* Ajustez ce chiffre en fonction de la position où vous souhaitez que la navbar se fixe */
+    const isSmallScreen = window.innerWidth < 768; // Adjust the threshold based on your needs
+  const scrollOffset = window.scrollY;
+
+  // If it's a small screen, adjust the scrollOffset
+  const adjustedScrollOffset = isSmallScreen ? scrollOffset + 250 : scrollOffset;
+
+  this.isSticky = adjustedScrollOffset >= 410;
   }
 }
